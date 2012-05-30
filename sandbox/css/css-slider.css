@@ -1,0 +1,122 @@
+body {
+	padding: 0;
+	background: #f6f6f6;
+	margin: 0;
+}
+
+#slider {
+	margin: 0px auto;
+	width: 845px;
+	top: 60px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.4);
+	background: #434343;
+}
+
+#slider [id^='image']:target img {
+	top: 0;  
+	left: 0;
+}
+
+#slider [id^='image']:target a {
+	background: #fff;
+	border: 3px solid #333;
+	width: 10px;
+	height: 10px;
+}
+
+#slider [id^="image"] img {
+	position: absolute;
+	top: -200px;
+	border: 0;
+	-moz-transition: top 0.5s ease-in;
+	-ms-transition: top 0.5s ease-in;
+	-webkit-transition: top 0.5s ease-in;
+	-o-transition: top 0.5s ease-in;
+}
+
+.slider-nav {
+	background: #333;
+	width: 16px;
+	z-index: 9999;
+	height: 16px;
+	box-shadow: inset 0px 2px 10px rgba(0,0,0,0.3), 0px 0px 20px rgba(255,255,255,0.4);
+	border-radius: 32px;
+	position: absolute;
+	bottom: 15px;
+}
+
+#image-1 .slider-nav {
+	right: 80px;
+}
+#image-2 .slider-nav {
+	right: 60px;
+}
+
+#image-3 .slider-nav {
+	right: 40px;
+}
+
+#image-4 .slider-nav {
+	right: 20px;
+}
+
+
+
+	#header {
+		background: #000;
+		padding: 20px;
+		color: #fff;
+	}
+	
+	#header a {
+		opacity: 1 !important;
+		color: #fff;
+		font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+	#header img {
+		width: 150px;
+		height: 33px;
+		float: none;
+	}
+	
+	
+	#header .button {
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+		padding: 12px 20px;
+		font-size: 18px;
+		border-radius: 10px;
+		background-color: #666666;	
+		box-shadow: 0 5px 5px #313131, 0 2px 0 #393939, inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+		position: relative;
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+		display: inline-block;
+		float: right;
+		position: relative;
+		bottom: 5px;
+		text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+	}
+	
+	#header .button:hover {
+		box-shadow: 0 5px 5px #313131, 0 2px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+	}
+	
+	#header .blue {
+		background: #2a8ad8;
+		box-shadow: 0 2px 0 #25325e, inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+	}
+	
+	#header .blue:hover {
+		box-shadow: 0 2px 0 #25325e, inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+	}
+	#header .blue:active {
+		box-shadow: 0 2px 0 #25325e, 0px 4px 4px rgba(0,0,0,0.3), inset 0px 2px 5px rgba(0,0,0,0.2);
+	}
