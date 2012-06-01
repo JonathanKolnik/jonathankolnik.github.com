@@ -1,6 +1,6 @@
 
 html{
-		 font-family: Times; 
+		 font-family: Century Gothic,sans-serif; 
 		 background-color: #000;
 		 margin: 0 auto 0 auto;
 		 padding: 25px;
@@ -15,7 +15,8 @@ html{
 	
 	
 	
-	nav{background-color: #FFFFFF; text-align: center; padding: 5px 0px 50px;
+	nav{background-color: #FFFFFF; text-align: center; padding: 25px 0px 25px;border-top: 1px solid #999;
+		border-bottom: 1px solid #999;
 	}
 	
 	
@@ -25,13 +26,25 @@ html{
 	
 	li{
 		display: inline;
-		margin: 25px;
+		margin: 15px;
 	}
-	
-	#search{
-		font-size: 18px;
-		font-family: Arial, Helvetica, sans-serif;
-		width: 176px;
-		display: table;
+	#lowerhalf{
+/*		border-bottom: 1px solid #333;*/
+		
 	}
-	
+	#leftcolumn { width: 325px; float: left;background: lightray;padding: 25px 5px 25px 35px;border-right: 1px solid #999;}
+	#rightcolumn { width: 600px; float: left;padding:25px 25px;font-size: 18px;
+	}
+	#rightcolumn,#leftcolumn:hover {color:#000;}
+	#featp{
+		
+		
+	}
+	#featl{
+		border-top: 1px solid #333;
+		
+	}
+	footer{
+		border-top: 1px solid #333;
+		
+	}
