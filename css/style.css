@@ -1,18 +1,25 @@
-body{
+
+html{
 	background: #1a1818;
+	  height: 100%;
+
+}
+body{
 	
+	font-family: Trade Gothic;
+	background: url('bg.png');
+	  height: 100%;
+	  min-height: 100%;
+  height: auto !important ;/*min-height hack*/
+  height: 100%;           /*min-height hack*/
+ 
 }
 @font-face {
 	font-family: Trade Gothic;
 	src: url('TradeGothic.ttf');
 }
 
-.bround{
-	
-	font-family: Trade Gothic;
-	padding: 50px;
-	background: url('bg.png');
-}
+
 .top{
 	text-align: center;
 	font-size: 30px;
@@ -23,4 +30,9 @@ body{
 	font-size: 18px;
 	padding: 10px;
 	
+	
+}
+img {
+	vertical-align: middle;
+	padding-right: 10px;
 }
