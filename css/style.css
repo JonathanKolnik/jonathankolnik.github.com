@@ -1,7 +1,6 @@
 body{
 	background: #1a1818;
-	margin: 10px;
-	vertical-align: middle;
+	
 }
 @font-face {
 	font-family: Trade Gothic;
@@ -9,10 +8,9 @@ body{
 }
 
 .bround{
+	
 	font-family: Trade Gothic;
 	padding: 50px;
-	width: 90%;
-	height: 90%;
 	background: url('bg.png');
 }
 .top{
