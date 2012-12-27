@@ -11,8 +11,8 @@ body{
 .bround{
 	font-family: Trade Gothic;
 	padding: 50px;
-	width: 90%;
-	height: 90%;
+	width: auto;
+	height: auto;
 	background: url('bg.png');
 }
 .top{
