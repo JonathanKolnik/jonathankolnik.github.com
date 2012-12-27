@@ -1,0 +1,17 @@
+body{
+	background: #1a1818;
+	margin: 10px;
+	
+}
+@font-face {
+	font-family: Trade Gothic;
+	src: url('TradeGothic.ttf');
+}
+
+.bround{
+	font-family: Trade Gothic;
+	padding: 5px;
+	width: 90%;
+	height: 90%;
+	background: #f8f8f7;
+}
