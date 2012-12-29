@@ -1,0 +1,1381 @@
+@import url("/CMSPages/GetCSS.aspx?stylesheetname=carausel");
+@import url("/CMSScripts/fancybox/jquery.fancybox-1.3.1.css");
+@import url("/CMSPages/GetCSS.aspx?stylesheetname=tabs");
+
+/* #General Styles# */
+body
+{
+    background-color: #dcc1a1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+ul{
+   color: #fff;
+}
+.padding{
+padding: 6px;
+}
+
+.clear
+{
+    clear: both;
+}
+img{
+   border: none;
+}
+h1
+{
+    color: #ffffff;
+}
+
+a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.container
+{
+    width: 100%;
+    background-color: #ffffff;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.outer
+{
+    background-image: url(/NewtonOptica/media/Global/NO_V2_ContainerLeftBorder.gif);
+    background-repeat: repeat-y;
+    padding: 0 0 0 37px;
+    width: 1024px;
+    margin: 0 auto;
+}
+.inner
+{
+    background-image: url(/NewtonOptica/media/Global/NO_V2_ContainerRightBorder.gif);
+    background-repeat: repeat-y;
+    padding: 0 50px 0 0;
+    width: 1024px;
+    background-position: top right;
+}
+
+.header
+{
+    width: 100%;
+    height: 109px;
+}
+
+.header .logo
+{
+    width: 247px;
+    height: 72px;
+    float: left;
+    background-image: url(/NewtonOptica/media/Global/Logo.jpg);
+    background-repeat: no-repeat;
+    margin-top: 34px;
+}
+
+.header_right
+{
+    float: right;
+}
+.header .info
+{
+    text-align: right;
+    color: #e7bd8f;
+    margin-top: 6px;
+    font-size: 13px;
+}
+.header .info span
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.header .navigation
+{
+    width: 756px;
+    height: 61px;
+    margin: 20px 0 0 0px;
+    padding: 16px 6px 0 15px;
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Nav_BG.gif);
+    background-repeat: repeat-x;
+}
+.header .navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header .navigation ul li
+{
+    font-family: "Arial Narrow" , Arial, sans-serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    display: inline;
+    list-style-type: none;
+    margin-right: 26px;
+    text-transform: lowercase;
+}
+
+.header .navigation ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .navigation ul li a:hover
+{
+    color: #34230e;
+}
+
+.header .navigation ul li ul{
+display: none;
+}
+
+
+
+.main_content
+{
+    width: 678px;
+    float: left;
+}
+
+.sidebar
+{
+    float: right;
+    width: 262px;
+}
+
+.content_slider
+{
+    width: 676px;
+    height: 307px;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+/* #Content Slider# */
+.content_slider .tabs
+{
+    /* ul */
+    width: 215px;
+    height: 307px;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.content_slider .tab
+{
+    /* li */
+    display: block;
+    list-style-type: none;
+    width: 215px;
+}
+
+.content_slider .tab1
+{
+    /* li */
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Tabs_tab1.gif);
+    background-repeat: no-repeat;
+    height: 47px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.content_slider .tab2
+{
+    /* li */
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Tabs_tab2.gif);
+    background-repeat: no-repeat;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.content_slider .tab3
+{
+    /* li */
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Tabs_tab3.gif);
+    background-repeat: no-repeat;
+    height: 51px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.content_slider .tab4
+{
+    /* li */
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Tabs_tab4.gif);
+    background-repeat: no-repeat;
+    height: 53px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.content_slider .tab5
+{
+    /* li */
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Tabs_tab5.gif);
+    background-repeat: no-repeat;
+    height: 51px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.content_slider .tabs .tab a
+{
+    color: #34230e;
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Arial Narrow" , arial, sans-serif;
+    text-decoration: none;
+}
+
+.content_slider .promotion
+{
+    float: left;
+    width: 461px;
+    height: 307px;
+}
+/* #Brands Slider# */
+.brands_slider
+{
+    height: 661px;
+    margin-bottom: 20px;
+}
+
+.brands_slider .top
+{
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Brands_Top.gif);
+    background-repeat: no-repeat;
+    width: 262px;
+    height: 15px;
+}
+.brands_slider .middle
+{
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Brands_Middle.gif);
+    background-repeat: no-repeat;
+    width: 262px;
+    height: 627px;
+}
+.brands_slider .bottom
+{
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Brands_Bottom.gif);
+    background-repeat: no-repeat;
+    width: 262px;
+    height: 19px;
+}
+
+.brands_slider #slider
+{
+    width: 168px;
+    height: 583px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.brands_slider .sliderUp
+{
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Brands_SliderUp.gif);
+    background-repeat: no-repeat;
+    width: 168px;
+    height: 30px;
+}
+
+.brands_slider .sliderDown
+{
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Brands_SliderDown.gif);
+    background-repeat: no-repeat;
+    width: 168px;
+    height: 30px;
+}
+.brands_slider .brandsbg
+{
+    background-color: #fff;
+    width: 168px;
+    height: 525px;
+}
+
+.brands_slider .logos
+{
+    /* ul */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.brands_slider .logos .logo
+{
+    /* li */
+    display: block;
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+.brands_slider .logos .logo img
+{
+    border: none;
+}
+/* #Product List# */
+.products_list, .brands_list
+{
+    background-color: #4f4a46;
+    width: 651px;
+    padding: 6px 13px 10px 13px;
+    margin: 0 0 26px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.brands_list_home{
+    background-color: #4f4a46;
+    width: 425px;
+    padding: 6px 13px 10px 13px;
+    height: 290px;
+}
+
+.products_list h1, .brands_list h1, .brands_list_home h1
+{
+    color: #e7bd8f;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.products_list .see_all, .brands_list .see_all
+{
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.products_list .see_all:hover, .brands_list .see_all:hover
+{
+    text-decoration: underline;
+}
+
+.products_list .product
+{
+    float: left;
+    width: 198px;
+    height: 93px;
+    /* background-image: url(/NewtonOptica/media/Global/NO_V2_Products_BG.gif); */
+/* background-image: url(/NewtonOptica/media/global/NP_ImageThumbnail_BG.gif); */
+   background-color: #1c1914;
+    background-repeat: no-repeat;
+    padding:13px 4px 4px;
+    text-align: center;
+    margin: 6px 7px 26px 0;
+    overflow: hidden;
+}
+
+.brands_list .product, .brands_list_home .product
+{
+    float: left;
+    width: 198px;
+    height: 93px;
+    background-image: url(/NewtonOptica/media/Global/NO_V2_Products_BG.gif);
+    background-repeat: no-repeat;
+    padding:0px 4px 4px;
+    text-align: center;
+    margin: 6px 7px 26px 0;
+    overflow: hidden;
+}
+.brands_list_home .product{
+   width: 197px;
+}
+.products_list .product h1
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+   margin:8px 0 0;
+}
+
+.brands_list .product h1, .brands_list_home .product h1
+{
+    color: #1c1914;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+   margin:0px 0 0;
+}
+
+.products_list .product .image_holder
+{
+    height:71px;
+    overflow: hidden;
+}
+.brands_list .product .image_holder, .brands_list_home .product .image_holder
+{
+    height:95px;
+    overflow: hidden;
+}
+
+.products_list .product img
+{
+    border: none;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+border:1px solid #DDDDDD;
+}
+
+.brands_list .product img{
+ border: none;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+	padding: 10px;
+
+}
+/* #Contact Styles# */
+.contact_holder
+{
+    width: 652px;
+    margin: 0 0 20px 0;
+    font-family: "Arial Narrow" , arial, sans-serif;
+}
+
+.contact_holder .contact_form
+{
+    float: left;
+    width: 360px;
+}
+
+.contact_holder .contact_info
+{
+    float: right;
+    width: 289px;
+}
+
+
+.contact_holder h1
+{
+    color: #e8cc9f;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 10px 35px;
+    height: 23px;
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Bullet_Arrow.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.contact_holder p
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 26px;
+}
+
+.contact_holder label, .contact_holder .large_label
+{
+    float: left;
+    width: 85px;
+    margin: 0 10px 10px 0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.contact_holder .large_label
+{
+    width: 100%;
+}
+
+.contact_holder input, .contact_holder select
+{
+    color: #504b47;
+    font-weight: bold;
+    padding: 3px;
+    width: 222px;
+    margin-bottom: 7px;
+}
+
+.contact_holder input[type=checkbox]{
+   width: 20px;
+}
+
+.contact_holder .button
+{
+    background-image: url(/NewtonOptica/media/Global/NP_V2_Button_Send.gif);
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    color: #2a1802;
+    width: 79px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+.command-row{
+	text-align: center;
+}
+
+.command-row input[type=submit]{
+	width: 100px;
+}
+
+
+
+/* #Social Media# */
+.social_media
+{
+    background-image: url(/NewtonOptica/media/Global/NP_V2_SocialMediaBG.gif);
+    background-repeat: no-repeat;
+    width: 262px;
+    height: 273px;
+    text-align: center;
+    padding: 34px 0 0 0;
+}
+
+.social_media img
+{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.social_media .separator
+{
+    border-bottom: 1px solid #e4dad2;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+.testimonials{
+ color:#2a1802;
+font-size:13px;
+font-weight:normal;
+height:200px;
+line-height:19px;
+overflow:auto;
+padding:0 17px 0 40px;
+text-align:center;
+width:175px;
+font-style: italic;
+}
+.contentblock .testimonials{
+margin: 10px 0 10px 0;
+height: 400px;
+overflow: auto;
+ color: #fff;
+font-size:13px;
+font-weight:normal;
+line-height:19px;
+padding:0 17px 0 5px;
+text-align: left;
+width:auto;
+font-style: italic;
+}
+.contentblock .testimonials .separator{
+   margin: 6px 0 15px 0;
+}
+.socialnetworks-belt{
+background-color: #fff;
+padding: 0 6px 0 6px;
+}
+
+.testimonials h1{
+font-size:14px;
+font-style:italic;
+margin:0 0 6px;
+text-align:left;
+
+}
+.contentblock{
+   background-image: url(/newtonoptica/media/global/NP_V2_Detai_Content_BGl.gif);
+   background-repeat: repeat-x;
+}
+
+.contentblock .socialmediastream{
+   background-color: #fff;
+}
+
+.contentblock .socialmedialinks{
+   margin: 0 0 10px 0;
+padding: 0 10px 0 10px;
+background: #fff;
+}
+.contentblock .socialmedialinks a{
+display: block; float: left; margin: 16px;
+}
+.contentblock .socialmedialinks img{
+   border: none;
+}
+
+/* #Footer# */
+
+.footer
+{
+    border-top: 6px solid #402b11;
+    padding: 40px 0 0 0;
+    color: #b59c75;
+    font-size: 11px;
+}
+
+.footer h1
+{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Arial Narrow" , arial, sans-serif;
+}
+
+.footer .sections
+{
+    float: left;
+    width: 24%;
+}
+
+.footer .brands
+{
+    float: left;
+    width: 24%;
+}
+
+.footer .followus
+{
+    float: right;
+    width: 24%;
+}
+
+.footer .resources
+{
+    float: left;
+    width: 24%;
+}
+
+.footer ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li
+{
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.EditingFormControlNestedControl
+{
+    display: inline;
+}
+/* #Breadcrumbs# */
+.breadcrumb-container{
+   clear: both;
+   margin: 0 0 10px 0;
+}
+
+.addtoany{
+	float: right;
+}
+
+.breadcrumbs
+{
+    color: #e3b188;
+    font-size: 11px;
+}
+
+.breadcrumbs a
+{
+    text-decoration: none;
+}
+.breadcrumbs a:hover
+{
+    text-decoration: underline;
+}
+.CMSBreadCrumbsCurrentItem
+{
+    color: #e3b188;
+}
+
+.sharelinks
+{
+    float: right;
+    margin: 0 0 6px 6px;
+}
+/* #Product Styles# */
+
+.productdetail
+{
+    background-color: #9d8979;
+    width: 676px;
+    height: 308;
+    overflow: hidden;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.productdetail .product-images{
+   float: left;
+}
+.productdetail .photo-nav{
+position: relative;
+text-align: right;
+
+}
+
+.productdetail .photo-nav a{
+   padding: 6px;
+position: relative;
+top: -20px;
+background-color: #675541;
+}
+.productdetail img.productphoto
+{
+    float: left;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.productdetail .left-text{
+  background:none repeat scroll 0 0 #FFFFFF;
+float:left;
+text-align:center;
+vertical-align:middle;
+width:461px;
+}
+
+.productdetail .information
+{
+    float:right;
+    width:214px;
+    height: 308px;
+    background-image: url('/NewtonOptica/media/Global/NP_V2_Detail_ShareBG.gif');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+color: #fff;
+}
+
+.productdetail .information a{
+   color: #fff;
+}
+
+.productdetail .information .header
+{
+    background-image: url('/NewtonOptica/media/Global/NP_V2_Detail_HeaderBG.gif');
+    background-repeat:no-repeat;
+    background-position: 0 -5px;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+text-align: right;
+height:92px;
+padding:6px 6px 0;
+}
+
+.productdetail .information h1
+{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial Narrow, Arial, Sans-Serif;
+    color: #fff;
+margin: 0 20px 0 0;
+ }
+
+
+
+.productdetail .information h2
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial Narrow, Arial, Sans-Serif;
+    color: #cdcbcb;
+margin-right: 20px;
+}
+
+.productdetail .information .promotion
+{
+    color: #e9cba1;
+}
+
+.productdetail .information .details{
+height: 188px;
+overflow: auto;
+}
+.productdetail .information p{
+padding:0 6px 0;
+}
+
+.productdetail .information .share{
+left:42px;
+position:relative;
+
+}
+
+.stock-disclaimer{
+   font-style: italic;
+   font-size: 10px;
+   color: #ccc;
+}
+
+/* #BrandStyles# */
+
+.branddetail
+{
+    background-color: #9d8979;
+    width: 676px;
+    height: 150;
+    overflow: hidden;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.branddetail .header{
+   height:119px !important;
+}
+
+.branddetail .image_container{
+width: 426px;
+text-align: center;
+vertical-align: middle;
+background: #fff;
+float: left;
+width:461px;
+height: 150px;
+}
+.branddetail img.productphoto
+{
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0;
+background-color: #fff;
+position: relative;
+top: 20%;
+}
+
+.branddetail .information
+{
+    float:right;
+    width:214px;
+    height: 150px;
+    background-image: url('/NewtonOptica/media/Global/NP_V2_Detail_ShareBG.gif');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+color: #fff;
+}
+
+.branddetail .information a{
+   color: #fff;
+}
+
+.branddetail .information .header
+{
+    background-image: url('/NewtonOptica/media/Global/NP_V2_Detail_HeaderBG.gif');
+    background-repeat:no-repeat;
+    background-position: 0 -5px;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+text-align: right;
+height:92px;
+padding:6px 6px 0;
+}
+
+.branddetail .information h1
+{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial Narrow, Arial, Sans-Serif;
+    color: #fff;
+margin: 0 20px 0 0;
+background: none;
+height: 50px;
+ }
+
+
+
+.branddetail .information h2
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial Narrow, Arial, Sans-Serif;
+    color: #cdcbcb;
+margin-right: 20px;
+}
+
+.branddetail .information .promotion
+{
+    color: #e9cba1;
+}
+
+.branddetail .information p{
+padding: 6px;
+}
+
+.branddetail .information .share{
+position:relative;
+left:42px;
+}
+
+.branddetail .information .details{
+   height: 42px;
+}
+
+/* #Information Page Styles# */
+
+.contentblock
+{
+   margin-bottom: 10px;
+    width: 676px;
+    font-size: 12px;
+}
+
+.contentblock h1
+{
+    background-image: url('/NewtonOptica/media/Global/NP_V2_Information_HeaderBG.gif');
+    background-repeat: no-repeat;
+    background-position: left top;
+    font-family: Arial Narrow, Arial, Sans-Serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    height:73px;
+padding:22px 0 0 10px;
+}
+
+.contentblock p
+{
+    color: #fff;   
+padding: 6px;
+}
+.contentblock h3{
+   color: #fff;
+margin: 0;
+padding: 6px;
+font-size: 16px;
+}
+
+.contentblock h4{
+   color: #fff;
+padding: 6px;
+}
+.content
+{   
+    margin-bottom: 12px;
+}
+
+
+h4
+{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* #Pop up styles# */
+.empty
+{
+    color: #000 !important;
+    font-size: medium;
+    padding: 6px;
+    background-color: #2a1802;
+min-height: 510px;
+}
+.empty p{
+color: #fff;
+font-size: 12px;
+}
+
+.empty *{
+color: #fff;
+}
+
+/* #Search Box# */
+.searchbox{
+margin: 0 0 15px 0;
+
+}
+
+
+
+.basicsearchbox
+{
+    background: url("/NewtonOptica/media/Global/NP_V2_SearchBG.gif") no-repeat scroll 0 0 transparent;
+    height: 79px;
+    margin: 0 0 10px;
+    padding: 20px 15px 20px 40px;
+}
+.basicsearchbox h3, .newsletter h3
+{
+    margin: 0px 0 4px 0;
+    color: #2a1802;
+}
+
+.searchbox input[type=text]
+{
+    width: 166px;
+ color: #2a1802;
+font-size: 12px;
+}
+
+
+.searchbutton
+{
+    color: #000;
+    padding: 1px 6px 2px 6px;
+    font-size: 12px;
+    margin-top: 10px;
+background-image: url('/NewtonOptica/media/Global/action_btn.gif');
+background-repeat: no-repeat;
+border: none;
+width: 84px;
+height: 22px;
+}
+
+/* #Search Results# */
+.search-result{
+margin: 0 0 10px 0;
+}
+.result-image{
+float: left; 
+border: solid 1px #eeeeee; 
+width: auto;
+padding: 2px;  
+margin-right: 6px;
+min-height: 66px;
+}
+.result-info{
+color: #000;
+}
+
+.result-info a{
+color: #fff;
+}
+
+/* #Newsletter# */
+.newsletter
+{
+    background-image: url(/NewtonOptica/media/Global/NP_V2_SocialMediaBG.gif);
+    background-repeat: no-repeat;
+    width: 262px;
+    height: 273px;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+/* #Slideshow# */
+#officeslideshow{
+float: left;
+width: 462px;
+margin:0;
+padding:0;
+}
+
+.tweetthis{
+background-image: url('/NewtonOptica/media/Global/icon_twitter.gif');
+background-repeat: no-repeat;
+padding-left: 18px;
+}
+
+.delicious{
+background-image: url('/NewtonOptica/media/Global/icon_delicius.gif');
+background-repeat: no-repeat;
+padding-left: 18px;
+}
+
+/* #Roundabout# */
+.roundabout-holder
+    {
+        padding: 0;
+        height: 5em;
+        width: 676px;
+    }
+    .roundabout-moveable-item
+    {
+        height: 4em;
+        width: 4em;
+        cursor: pointer;
+        background-color: #ffc;
+        border: 1px solid #999;
+    }
+    .roundabout-in-focus
+    {
+        cursor: auto;
+    }
+    #myRoundabout li
+    {
+        list-style: none;
+    }
+    #myRoundabout
+    {
+      left: 100px;
+top: 130px;
+width: 676px;
+    }
+    .myRoundaboutcontainer
+    {
+        
+    }
+
+
+
+
+
+/* #Landing Page$ */
+.landing-content .products_list{
+	width: 98%;
+clear: both;
+}
+.list_holder{
+   margin: 0 0 0 74px;
+}
+
+.landing-content h3{
+color: #e5e5e5;
+line-height: 21px;
+}
+
+/* #Fancybox Fixes# */
+.close_btn{
+float: right;
+color: #000;
+font-weight: bold;
+color: #000;
+padding:3px 6px 2px 25px;
+font-size: 12px;
+margin-top: 10px;
+background-image: url('/NewtonOptica/media/Global/action_btn.gif');
+background-repeat: no-repeat;
+border: none;
+width: 84px;
+height: 22px;
+}
+
+
+
+#featured .ui-tabs-panel .info{
+width: 100%;
+}
+
+
+.homepage-specials{
+padding: 6px;
+width: 461px;
+height: 307px;
+font-size: 14px;
+font-weight: bold;
+color: #333333;
+}
+
+
+.homepage-specials img{
+float: left;
+margin-right: 6px;
+}
+
+.homepage-specials div{
+clear: both;
+margin-bottom: 20px;
+background-color: #000;
+padding:6px 6px 1px 10px;
+width: 87%;
+}
+.homepage-specials p{
+  padding-top: 6px;
+  color: #fff;
+}
+.homepage-specials .clear{
+padding: 0 !important;
+margin: 0 !important;
+}
+
+/*# Services Pop Up Styles # */
+
+.popup-imagecontainer{
+   float: none; 
+   margin: 10px 0px 10px 6px;
+}
+.popup-imagecontainer img{
+   display: block;
+   float: left;
+   margin: 0 6px 0 0;
+  padding: 2px;
+border: 1px solid #e7bd8f;
+}
+
+.imgContainer img{
+   display: block;
+   float: right;
+   margin: 0 0px 0 6px;
+  padding: 2px;
+border: 1px solid #e7bd8f;
+}
+
+
+.faqs-promobox {
+ background:#424242 none repeat scroll 0 0;
+color:#FFFFFF;
+float:left;
+font-size:14px;
+height:131px;
+padding:10px 10px 10px 20px;
+text-align:left;
+width:432px;
+}
+.faqs-promobox ul{
+   margin: 0; padding: 0;
+}
+
+
+.faq-block{
+   border-bottom: 1px solid #564734;
+   padding: 6px 0 6px 0;
+}
+.faqs-promobox ul li{
+   list-style: none;
+}
+
+.faqs-promobox h3{
+color: #E7BD8F;
+}
+
+.copyright{
+text-align: center;
+}
+
+#facebook-comments{
+   clear:both;
+   margin: 10px 0 0 0;
+   background: #fff;
+   border: 1px solid #2a1802;
+}
+
+#facebook-comments iframe{
+width: 676px !important;
+background: #ddd;
+}
+
+
+.PagerControl{
+   color: #fff;
+}
+
+.PagerControl a{
+   color: #eee;
+}
+
+.home-prev{
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+        padding-right: 20px;
+}
+
+.home-next{
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.slider-nav a{
+	 color: #FFFFFF;
+    display: block;
+    float: left;
+padding: 4px;
+}
+.slider-nav{
+	clear: both;
+	margin: 10px 0 4px 0;
+}
+.slider-nav a.activeSlide{
+	
+	color: #000;
+	font-weight: bold;
+background:#dcc1a1
+ 
+}
+.next-prev{
+width: 100px;
+}
+
+.pager-disabled{
+   display: none;
+}
+
+
+
+/*# Sub Navigation #*/
+.submenu{
+	background: #424242;
+	padding: 10px;
+	border-bottom: 3px solid #f5e0bd;
+}
+
+.submenu a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.submenu a:hover{
+	color:#f5e0bd;
+}
+
+/*# DISQUSS #*/
+
+#disqus_thread, .dsq-brlink{
+margin: 10px;
+}
+
+#disqus_thread h3{
+color: #fff;
+}
+#disqus_thread a{
+color: #E7BD8F;
+}
+
+.dsq-brlink{
+color: #ccc;
+padding-bottom: 6px;
+}
+
+#dsq-sort-select{
+font-size: 11px;
+font: 11px 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+color: #333;
+padding: 6px;
+}
+
+
+/*# Promotion Belt #*/
+
+.promotion-belt{
+	margin: 10px 0;
+border-top: 6px solid #402B11;
+padding-top: 16px;
+}
+
+.promotion-belt .column{
+	width: 311px;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+.share-this{
+margin-left: 52px;
+margin-bottom: 43px;
+}
+
+.content-margin{
+margin-bottom: 20px;
+}
