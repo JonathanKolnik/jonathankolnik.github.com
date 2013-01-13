@@ -1,13 +1,12 @@
 
 html{
-	background: #1a1818;
 	  height: 100%;
 
 }
 body{
 	
-	font-family: Trade Gothic;
-	background: url('bg.png');
+	font-family: Bebas Neue;
+	background: url('bg_pattern.png');
 	  height: 100%;
 	  min-height: 100%;
   height: auto !important ;/*min-height hack*/
@@ -15,15 +14,15 @@ body{
  
 }
 @font-face {
-	font-family: Trade Gothic;
-	src: url('TradeGothic.ttf');
+	font-family: Bebas Neue;
+	src: url('BebasNeue.otf');
 }
 
 
 .top{
-	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 	padding: 40px;
+	vertical-align: bottom;
 }
 .nav{
 	text-align: center;
