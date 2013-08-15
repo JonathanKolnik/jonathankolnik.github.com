@@ -16,8 +16,8 @@ input,
 select,
 textarea {
    background-color: #48667A;
-   overflow:hidden;
-}
+/*   overflow:hidden;
+*/}
 
 body {
     font-size: 1em;
