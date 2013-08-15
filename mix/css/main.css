@@ -150,11 +150,17 @@ textarea {
 
   #slideshow {
       position: relative;
-
+      width:1280px;
+      display: block;
+       margin-left: auto;
+       margin-right: auto;
   }
 
   #slideshow > div {
-
+    width:1280px;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
       position: absolute;
 
   }
