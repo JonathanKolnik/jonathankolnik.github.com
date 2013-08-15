@@ -28,7 +28,7 @@
 
 
 
-              <div class="back">
+            <!--   <div class="back">
                       <div class="inner-two container" style="background-color:#D4E5F0">
                           <div class="inner-two" style="background-color:#C3D8E9">
                               <div class="inner-two" style="background-color:#9BC1DC">
@@ -52,8 +52,21 @@
               </div>
               <div class="iphone">
                    <img src="img/iphone.png" />
-               </div>
+               </div> -->
+               <ul class="bxslider">
+                 <li><img src="/img/WEB_LANDINGPAGE.jpg" /></li>
+                 <li><img src="/img/WEB_LANDINGPAGE1.jpg" /></li>
+                 <li><img src="/img/WEB_LANDINGPAGE2.jpg" /></li>
+                 <li><img src="/img/WEB_LANDINGPAGE3.jpg" /></li>
 
+               </ul>
+
+               <!-- jQuery library (served from Google) -->
+               <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+               <!-- bxSlider Javascript file -->
+               <script src="/js/jquery.bxslider.min.js"></script>
+               <!-- bxSlider CSS file -->
+               <link href="/css/jquery.bxslider.css" rel="stylesheet" />
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
@@ -71,6 +84,7 @@
 
         <script>
         $( document ).ready(function() {
+           $('.bxslider').bxSlider();
           $(".container").width( $(".container").height());
 
         });
