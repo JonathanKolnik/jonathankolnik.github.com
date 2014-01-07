@@ -3,6 +3,9 @@ html{
 	  height: 100%;
 
 }
+a {text-decoration: none;
+color: #000000;
+}
 body{
 	
 	font-family: Bebas Neue;
